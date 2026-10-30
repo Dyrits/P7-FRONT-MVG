@@ -1,4 +1,4 @@
-FROM node:19
+FROM node:26
 
 WORKDIR /app
 
@@ -11,4 +11,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm", "start"]
-
